@@ -25,6 +25,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NETHERITE_COIN = ITEMS.register("netherite_coin",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYST_COIN = ITEMS.register("amethyst_coin",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LAPIS_COIN = ITEMS.register("lapis_coin",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

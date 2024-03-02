@@ -18,7 +18,7 @@ authors="IndEvo Studio" #optional
 
 
 
-description='''${mod_description}'''
+description='''A simple mod adding coins for better trading with your friends.'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.numismatic]] #optional
 # the modid of the dependency

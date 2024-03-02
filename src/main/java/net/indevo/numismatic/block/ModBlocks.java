@@ -35,6 +35,26 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
                     .strength(3.0F, 3.0F).sound(SoundType.METAL)));
 
+    public static final RegistryObject<Block> COPPER_COINSTACK = registerBlock("copper_coinstack",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
+                    .strength(3.0F, 3.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> DIAMOND_COINSTACK = registerBlock("diamond_coinstack",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
+                    .strength(3.0F, 3.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> GOLD_COINSTACK = registerBlock("gold_coinstack",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
+                    .strength(3.0F, 3.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> IRON_COINSTACK = registerBlock("iron_coinstack",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
+                    .strength(3.0F, 3.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> NETHERITE_COINSTACK = registerBlock("netherite_coinstack",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
+                    .strength(3.0F, 3.0F).sound(SoundType.METAL)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

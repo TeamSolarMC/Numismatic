@@ -20,13 +20,15 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-//        simpleItem(ModItems.COPPER_COIN);
-//        simpleItem(ModItems.IRON_COIN);
-//        simpleItem(ModItems.COPPER_COIN);
-//        simpleItem(ModItems.GOLD_COIN);
-//        simpleItem(ModItems.DIAMOND_COIN);
-//        simpleItem(ModItems.EMERALD_COIN);
-//        simpleItem(ModItems.NETHERITE_COIN); //TODO TEXTURES
+        simpleItem(ModItems.COPPER_COIN);
+        simpleItem(ModItems.IRON_COIN);
+        simpleItem(ModItems.COPPER_COIN);
+        simpleItem(ModItems.GOLD_COIN);
+        simpleItem(ModItems.DIAMOND_COIN);
+        simpleItem(ModItems.EMERALD_COIN);
+        simpleItem(ModItems.NETHERITE_COIN);
+        simpleItem(ModItems.AMETHYST_COIN);
+        simpleItem(ModItems.LAPIS_COIN);
     }
 
     private ItemModelBuilder complexBlock(Block block) {

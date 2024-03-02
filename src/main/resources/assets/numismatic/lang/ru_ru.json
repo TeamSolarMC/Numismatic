@@ -1,0 +1,22 @@
+{
+  "item.numismatic.copper_coin": "Медная монета",
+  "item.numismatic.iron_coin": "Железная монета",
+  "item.numismatic.gold_coin": "Золотая монета",
+  "item.numismatic.diamond_coin": "Алмазная монета",
+  "item.numismatic.emerald_coin": "Изумрудная монета",
+  "item.numismatic.netherite_coin": "Незеритовая монета",
+  "item.numismatic.amethyst_coin": "Аметистовая монета",
+  "item.numismatic.lapis_coin": "Лазуритовая монета",
+
+
+  "block.numismatic.amethyst_coinstack": "Стопка аметистовых монет",
+  "block.numismatic.emerald_coinstack": "Стопка изумрудных монет",
+  "block.numismatic.lapis_coinstack": "Стопка лазуритовых монет",
+  "block.numismatic.copper_coinstack": "Стопка медных монет",
+  "block.numismatic.diamond_coinstack": "Стопка алмазных монет",
+  "block.numismatic.gold_coinstack": "Стопка золотых монет",
+  "block.numismatic.iron_coinstack": "Стопка железных монет",
+  "block.numismatic.netherite_coinstack": "Стопка незеритовых монет",
+
+  "creativetab.numismatic_tab": "Numismatic"
+}

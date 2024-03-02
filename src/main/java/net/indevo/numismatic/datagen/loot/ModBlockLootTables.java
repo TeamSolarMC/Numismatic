@@ -15,6 +15,14 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+        this.dropSelf(ModBlocks.AMETHYST_COINSTACK.get());
+        this.dropSelf(ModBlocks.EMERALD_COINSTACK.get());
+        this.dropSelf(ModBlocks.LAPIS_COINSTACK.get());
+        this.dropSelf(ModBlocks.COPPER_COINSTACK.get());
+        this.dropSelf(ModBlocks.DIAMOND_COINSTACK.get());
+        this.dropSelf(ModBlocks.GOLD_COINSTACK.get());
+        this.dropSelf(ModBlocks.IRON_COINSTACK.get());
+        this.dropSelf(ModBlocks.NETHERITE_COINSTACK.get());
     }
 
     @Override

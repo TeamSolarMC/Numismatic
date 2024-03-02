@@ -1,1 +1,9 @@
-// 1.20.1	2024-02-28T21:49:43.4332923	Item Models: numismatic
+// 1.20.1	2024-03-02T23:40:07.9724403	Item Models: numismatic
+de16f0fa4e74fa175b93756986b019a660b47967 assets/numismatic/models/item/amethyst_coin.json
+d20abc26efe84325898179a95e4ed1090d8974a9 assets/numismatic/models/item/copper_coin.json
+e2e4c998b6842b24365216c1db91af7e1edad23c assets/numismatic/models/item/diamond_coin.json
+cebd9d8524b3398182a8c7b7497d05f3e8818b08 assets/numismatic/models/item/emerald_coin.json
+b2e91a92a046798f07f20f55f38283a2bba91bad assets/numismatic/models/item/gold_coin.json
+200125d4d2c768824664d426b3da7c7711c04c40 assets/numismatic/models/item/iron_coin.json
+1b182e715b37b4fe83959af46ce0223d80381711 assets/numismatic/models/item/lapis_coin.json
+cbdbd94e12b7876b93d4ca792a80e2e6488dd863 assets/numismatic/models/item/netherite_coin.json
