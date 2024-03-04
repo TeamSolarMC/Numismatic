@@ -19,18 +19,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider ){
-        this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(
-                        ModBlocks.AMETHYST_COINSTACK.get(),
-                        ModBlocks.EMERALD_COINSTACK.get(),
-                        ModBlocks.COPPER_COINSTACK.get(),
-                        ModBlocks.DIAMOND_COINSTACK.get(),
-                        ModBlocks.GOLD_COINSTACK.get(),
-                        ModBlocks.IRON_COINSTACK.get(),
-                        ModBlocks.NETHERITE_COINSTACK.get(),
-                        ModBlocks.LAPIS_COINSTACK.get());
-    }
 
+    }
     @Override
     public String getName() {
         return "Block Tags";

@@ -9,14 +9,14 @@
   "item.numismatic.lapis_coin": "Lapis Coin",
 
 
-  "block.numismatic.amethyst_coinstack": "Amethyst Coinstack",
-  "block.numismatic.emerald_coinstack": "Emerald Coinstack",
-  "block.numismatic.lapis_coinstack": "Lapis Coinstack",
-  "block.numismatic.copper_coinstack": "Copper Coinstack",
-  "block.numismatic.diamond_coinstack": "Diamond Coinstack",
-  "block.numismatic.gold_coinstack": "Gold Coinstack",
-  "block.numismatic.iron_coinstack": "Iron Coinstack",
-  "block.numismatic.netherite_coinstack": "Netherite Coinstack",
+  "item.numismatic.amethyst_coinstack": "Amethyst Coinstack",
+  "item.numismatic.emerald_coinstack": "Emerald Coinstack",
+  "item.numismatic.lapis_coinstack": "Lapis Coinstack",
+  "item.numismatic.copper_coinstack": "Copper Coinstack",
+  "item.numismatic.diamond_coinstack": "Diamond Coinstack",
+  "item.numismatic.gold_coinstack": "Gold Coinstack",
+  "item.numismatic.iron_coinstack": "Iron Coinstack",
+  "item.numismatic.netherite_coinstack": "Netherite Coinstack",
 
   "creativetab.numismatic_tab": "Numismatic"
 }

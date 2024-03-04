@@ -30,6 +30,23 @@ public class ModItems {
     public static final RegistryObject<Item> LAPIS_COIN = ITEMS.register("lapis_coin",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> COPPER_COINSTACK = ITEMS.register("copper_coinstack",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IRON_COINSTACK = ITEMS.register("iron_coinstack",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLD_COINSTACK = ITEMS.register("gold_coinstack",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_COINSTACK = ITEMS.register("diamond_coinstack",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EMERALD_COINSTACK = ITEMS.register("emerald_coinstack",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_COINSTACK = ITEMS.register("netherite_coinstack",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYST_COINSTACK = ITEMS.register("amethyst_coinstack",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LAPIS_COINSTACK = ITEMS.register("lapis_coinstack",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

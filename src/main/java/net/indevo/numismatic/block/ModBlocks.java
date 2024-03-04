@@ -2,16 +2,9 @@ package net.indevo.numismatic.block;
 
 import net.indevo.numismatic.Numismatic;
 import net.indevo.numismatic.item.ModItems;
-import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.material.MapColor;
-import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,38 +15,6 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Numismatic.MOD_ID);
-
-    public static final RegistryObject<Block> AMETHYST_COINSTACK = registerBlock("amethyst_coinstack",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
-                    .strength(3.0F, 3.0F).sound(SoundType.METAL)));
-
-    public static final RegistryObject<Block> EMERALD_COINSTACK = registerBlock("emerald_coinstack",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
-                    .strength(3.0F, 3.0F).sound(SoundType.METAL)));
-
-    public static final RegistryObject<Block> LAPIS_COINSTACK = registerBlock("lapis_coinstack",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
-                    .strength(3.0F, 3.0F).sound(SoundType.METAL)));
-
-    public static final RegistryObject<Block> COPPER_COINSTACK = registerBlock("copper_coinstack",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
-                    .strength(3.0F, 3.0F).sound(SoundType.METAL)));
-
-    public static final RegistryObject<Block> DIAMOND_COINSTACK = registerBlock("diamond_coinstack",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
-                    .strength(3.0F, 3.0F).sound(SoundType.METAL)));
-
-    public static final RegistryObject<Block> GOLD_COINSTACK = registerBlock("gold_coinstack",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
-                    .strength(3.0F, 3.0F).sound(SoundType.METAL)));
-
-    public static final RegistryObject<Block> IRON_COINSTACK = registerBlock("iron_coinstack",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
-                    .strength(3.0F, 3.0F).sound(SoundType.METAL)));
-
-    public static final RegistryObject<Block> NETHERITE_COINSTACK = registerBlock("netherite_coinstack",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
-                    .strength(3.0F, 3.0F).sound(SoundType.METAL)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

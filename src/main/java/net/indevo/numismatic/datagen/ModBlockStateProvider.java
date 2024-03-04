@@ -19,14 +19,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        blockWithItem(ModBlocks.AMETHYST_COINSTACK);
-        blockWithItem(ModBlocks.EMERALD_COINSTACK);
-        blockWithItem(ModBlocks.LAPIS_COINSTACK);
-        blockWithItem(ModBlocks.COPPER_COINSTACK);
-        blockWithItem(ModBlocks.DIAMOND_COINSTACK);
-        blockWithItem(ModBlocks.GOLD_COINSTACK);
-        blockWithItem(ModBlocks.IRON_COINSTACK);
-        blockWithItem(ModBlocks.NETHERITE_COINSTACK);
     }
 
     private String name(Block block) {

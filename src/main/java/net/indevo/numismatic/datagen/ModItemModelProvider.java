@@ -1,6 +1,7 @@
 package net.indevo.numismatic.datagen;
 
 import net.indevo.numismatic.Numismatic;
+import net.indevo.numismatic.block.ModBlocks;
 import net.indevo.numismatic.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -22,13 +23,21 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.COPPER_COIN);
         simpleItem(ModItems.IRON_COIN);
-        simpleItem(ModItems.COPPER_COIN);
         simpleItem(ModItems.GOLD_COIN);
         simpleItem(ModItems.DIAMOND_COIN);
         simpleItem(ModItems.EMERALD_COIN);
         simpleItem(ModItems.NETHERITE_COIN);
         simpleItem(ModItems.AMETHYST_COIN);
         simpleItem(ModItems.LAPIS_COIN);
+
+        simpleItem(ModItems.COPPER_COINSTACK);
+        simpleItem(ModItems.IRON_COINSTACK);
+        simpleItem(ModItems.GOLD_COINSTACK);
+        simpleItem(ModItems.DIAMOND_COINSTACK);
+        simpleItem(ModItems.EMERALD_COINSTACK);
+        simpleItem(ModItems.NETHERITE_COINSTACK);
+        simpleItem(ModItems.AMETHYST_COINSTACK);
+        simpleItem(ModItems.LAPIS_COINSTACK);
     }
 
     private ItemModelBuilder complexBlock(Block block) {

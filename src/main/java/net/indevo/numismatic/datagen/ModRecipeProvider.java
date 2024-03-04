@@ -1,7 +1,6 @@
 package net.indevo.numismatic.datagen;
 
 import net.indevo.numismatic.Numismatic;
-import net.indevo.numismatic.block.ModBlocks;
 import net.indevo.numismatic.item.ModItems;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
@@ -125,7 +124,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         //COINSTACKS
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.AMETHYST_COINSTACK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AMETHYST_COINSTACK.get())
                 .pattern("AAA")
                 .pattern("AAA")
                 .pattern("AAA")
@@ -134,7 +133,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.AMETHYST_COIN.get()).build()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.COPPER_COINSTACK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_COINSTACK.get())
                 .pattern("AAA")
                 .pattern("AAA")
                 .pattern("AAA")
@@ -143,7 +142,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.COPPER_COIN.get()).build()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DIAMOND_COINSTACK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DIAMOND_COINSTACK.get())
                 .pattern("AAA")
                 .pattern("AAA")
                 .pattern("AAA")
@@ -152,7 +151,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.DIAMOND_COIN.get()).build()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.EMERALD_COINSTACK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_COINSTACK.get())
                 .pattern("AAA")
                 .pattern("AAA")
                 .pattern("AAA")
@@ -161,7 +160,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.EMERALD_COIN.get()).build()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GOLD_COINSTACK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GOLD_COINSTACK.get())
                 .pattern("AAA")
                 .pattern("AAA")
                 .pattern("AAA")
@@ -170,7 +169,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.GOLD_COIN.get()).build()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.IRON_COINSTACK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.IRON_COINSTACK.get())
                 .pattern("AAA")
                 .pattern("AAA")
                 .pattern("AAA")
@@ -179,7 +178,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.IRON_COIN.get()).build()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LAPIS_COINSTACK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LAPIS_COINSTACK.get())
                 .pattern("AAA")
                 .pattern("AAA")
                 .pattern("AAA")
@@ -188,7 +187,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.LAPIS_COIN.get()).build()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.NETHERITE_COINSTACK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NETHERITE_COINSTACK.get())
                 .pattern("AAA")
                 .pattern("AAA")
                 .pattern("AAA")

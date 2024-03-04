@@ -1,9 +1,17 @@
-// 1.20.1	2024-03-02T23:40:07.9724403	Item Models: numismatic
+// 1.20.1	2024-03-04T22:11:00.150632	Item Models: numismatic
 de16f0fa4e74fa175b93756986b019a660b47967 assets/numismatic/models/item/amethyst_coin.json
+2b2483daaf30c06e38bac6354691975dd956234c assets/numismatic/models/item/amethyst_coinstack.json
 d20abc26efe84325898179a95e4ed1090d8974a9 assets/numismatic/models/item/copper_coin.json
+0414cabc2d1c2d1ca37174066cfda8072c44eaf8 assets/numismatic/models/item/copper_coinstack.json
 e2e4c998b6842b24365216c1db91af7e1edad23c assets/numismatic/models/item/diamond_coin.json
+7785defe5feb1cd8fc6eac2abdd26cc388a826a4 assets/numismatic/models/item/diamond_coinstack.json
 cebd9d8524b3398182a8c7b7497d05f3e8818b08 assets/numismatic/models/item/emerald_coin.json
+ef3395aa7392453e11afdd4c4f559f441bd2b75f assets/numismatic/models/item/emerald_coinstack.json
 b2e91a92a046798f07f20f55f38283a2bba91bad assets/numismatic/models/item/gold_coin.json
+2981a5f3e54ee07bd5474f31275730618296b246 assets/numismatic/models/item/gold_coinstack.json
 200125d4d2c768824664d426b3da7c7711c04c40 assets/numismatic/models/item/iron_coin.json
+eb44cca47f450abc19c37c8a273078160a0ea071 assets/numismatic/models/item/iron_coinstack.json
 1b182e715b37b4fe83959af46ce0223d80381711 assets/numismatic/models/item/lapis_coin.json
+3fee01a2c9252f57fa4b25065e07900d2c8139b5 assets/numismatic/models/item/lapis_coinstack.json
 cbdbd94e12b7876b93d4ca792a80e2e6488dd863 assets/numismatic/models/item/netherite_coin.json
+b30e6aa691f697c830e50b347d01afa16703491c assets/numismatic/models/item/netherite_coinstack.json
