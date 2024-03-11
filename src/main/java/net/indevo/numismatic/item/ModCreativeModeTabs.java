@@ -1,6 +1,7 @@
 package net.indevo.numismatic.item;
 
 import net.indevo.numismatic.Numismatic;
+import net.indevo.numismatic.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -35,6 +36,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.GOLD_COINSTACK.get());
                         output.accept(ModItems.IRON_COINSTACK.get());
                         output.accept(ModItems.NETHERITE_COINSTACK.get());
+
+
+                        output.accept(ModBlocks.COIN_EXCHANGER.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

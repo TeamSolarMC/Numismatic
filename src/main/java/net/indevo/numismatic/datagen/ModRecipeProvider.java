@@ -1,6 +1,7 @@
 package net.indevo.numismatic.datagen;
 
 import net.indevo.numismatic.Numismatic;
+import net.indevo.numismatic.datagen.custom.CoinExchangerRecipeBuilder;
 import net.indevo.numismatic.item.ModItems;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
@@ -195,6 +196,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_netherite_coin", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.NETHERITE_COIN.get()).build()))
                 .save(pWriter);
+
+        new CoinExchangerRecipeBuilder(ModItems.AMETHYST_COINSTACK.get(), ModItems.AMETHYST_COIN.get(), 9)
+                .unlockedBy("has_amethyst_coinstack", has(ModItems.AMETHYST_COINSTACK.get())).save(pWriter);
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

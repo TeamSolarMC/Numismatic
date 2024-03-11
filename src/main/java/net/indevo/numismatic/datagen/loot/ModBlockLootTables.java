@@ -15,6 +15,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+        this.dropSelf(ModBlocks.COIN_EXCHANGER.get());
     }
 
     @Override

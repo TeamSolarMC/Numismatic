@@ -2,8 +2,13 @@ package net.indevo.numismatic;
 
 import com.mojang.logging.LogUtils;
 import net.indevo.numismatic.block.ModBlocks;
+import net.indevo.numismatic.block.entity.ModBlockEntities;
 import net.indevo.numismatic.item.ModCreativeModeTabs;
 import net.indevo.numismatic.item.ModItems;
+import net.indevo.numismatic.recipe.ModRecipes;
+import net.indevo.numismatic.screen.CoinExchangerScreen;
+import net.indevo.numismatic.screen.ModMenuTypes;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -29,6 +34,11 @@ public class Numismatic {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
+
+        ModRecipes.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -52,7 +62,9 @@ public class Numismatic {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            event.enqueueWork(() -> {
+                MenuScreens.register(ModMenuTypes.COIN_EXCHANGER_MENU.get(), CoinExchangerScreen::new);
+            });
         }
     }
 }

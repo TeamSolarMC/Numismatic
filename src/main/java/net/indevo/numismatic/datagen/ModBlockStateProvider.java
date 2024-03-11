@@ -19,6 +19,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        blockWithItem(ModBlocks.COIN_EXCHANGER);
     }
 
     private String name(Block block) {
